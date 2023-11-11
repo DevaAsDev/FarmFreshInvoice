@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="log.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Firebase.Database" Version="1.0.0" />
+    <PackageReference Include="FirebaseAdminCore" Version="2.0.0" />
+    <PackageReference Include="FirebaseAPI" Version="1.0.0.1" />
+    <PackageReference Include="FirebaseDatabase.net" Version="4.2.0" />
+    <PackageReference Include="FireSharp" Version="2.0.4" />
+    <PackageReference Include="FireSharp.Serialization.JsonNet" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="src\log.png" />
+  </ItemGroup>
+
+</Project>
